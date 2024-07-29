@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@400;500;900&display=swap');
+body {
+	background: black;
+	font-family: 'Mulish', sans-serif;
+	padding: 25px;
+}
+
+h1{
+	font-weight: 900;
+}
+
+p {
+	font-weight: 600;
+}
+
+
+.title {
+	color: #02799D;
+	font-size: 59.28px;
+	line-height: 40.16px;
+	margin-left: 10%;
+}
+
+.paraf{
+	color: #E1E1E6;
+	font-size: 32px;
+	margin-left: 10%;
+}
+
+.card-container {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto auto;
+	margin-left: 10%;
+  }
+
+.card {
+	background-color: #202024;
+	border: 2px solid #323238;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 366px;
+	height: 448px;
+	text-align: start;
+  }
+
+.card h2 {
+	font-weight: 900; /* ExtraBold */
+	font-size: 35.3px;
+	margin: 0 0 10px;
+	color:#E1E1E6;
+  }
+
+.card p {
+	font-weight: 600; /* SemiBold */
+	font-size: 19.38px;
+	color: #C4C4CC;
+  }
